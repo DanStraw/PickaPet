@@ -10,7 +10,7 @@ var app = express();
 // var PORT = process.env.PORT || 8080;
 
 // var db = require("./models");
-console.log(keys.petfinder.api_key);
+// console.log(keys.petfinder.api_key);
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
